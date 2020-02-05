@@ -104,6 +104,7 @@ $(document).ready(function(){
   });
 });
 
+
 // scrollRight
 function scrollRight() {
   var elmt = document.querySelector("#pageFour")
@@ -124,27 +125,6 @@ function pokeclose() {
   var sor = document.querySelector("#pageFour")
   sor.style.cursor = "url(assets/icons8-pokeball-80.png), help";
 }
-
-// function slide() {
-//   var slide1 = document.querySelector("#slide1")
-//   slide1.style.animation = "slide 1s";
-//   var slide2 = document.querySelector("#slide2")
-//   slide2.style.animation = "slide 1s";
-//   var slide3 = document.querySelector("#slide3")
-//   slide3.style.animation = "slide 1s";
-//   var slide4 = document.querySelector("#slide4")
-//   slide4.style.animation = "slide 1s";
-// }
-// function slidenone() {
-//   var slide11 = document.querySelector("#slide1")
-//   slide11.style.animation = "";
-//   var slide22 = document.querySelector("#slide2")
-//   slide22.style.animation = "";
-//   var slide33 = document.querySelector("#slide3")
-//   slide33.style.animation = "";
-//   var slide44 = document.querySelector("#slide4")
-//   slide44.style.animation = "";
-// }
 
 $(document).ready(function(){
   $(".slidecontainer").mouseover(function(){
@@ -208,11 +188,3 @@ function cursorImg5() {
   var cur = document.querySelector("#move1");
   cur.style.opacity = "0";
 }
-// function cursorImg6() {
-//   var cur = document.querySelector("#move4");
-//   cur.style.opacity = "1";
-// }
-// function cursorImg7() {
-//   var cur = document.querySelector("#move4");
-//   cur.style.opacity = "0";
-// }

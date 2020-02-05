@@ -954,7 +954,7 @@ a {
   height: 250px;
   line-height: 50px;
   font-family: 'Montserrat', sans-serif;
-  z-index: 4;
+  /* z-index: 2; */
 }
 #pro3 {
   color: whitesmoke;
@@ -973,7 +973,7 @@ a {
   font-family: 'Montserrat', sans-serif;
   cursor: url(assets/icons8-open-pokeball-80.png), auto;
   line-height: 70px;
-  z-index: 11;
+  z-index: 4;
 }
 #p3:hover {
   -webkit-text-stroke: 1px orange;
@@ -1134,7 +1134,7 @@ a {
   color: aliceblue;
   border: 1px solid white;
   margin-top: -300px;
-  margin-left: 1100px;
+  margin-left: 1050px;
   z-index: 12;
   filter: blur(3px);
   font-family: 'Montserrat', sans-serif;
