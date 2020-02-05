@@ -953,6 +953,7 @@ a {
   width: 700px;
   height: 250px;
   line-height: 50px;
+  cursor: url(assets/icons8-open-pokeball-80.png), auto;
   font-family: 'Montserrat', sans-serif;
 }
 #pro3 {
