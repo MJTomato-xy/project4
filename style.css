@@ -973,7 +973,7 @@ a {
   font-family: 'Montserrat', sans-serif;
   cursor: url(assets/icons8-open-pokeball-80.png), auto;
   line-height: 70px;
-  z-index: 11;
+  transition: 1s;
 }
 #p3:hover {
   -webkit-text-stroke: 1px orange;
@@ -990,6 +990,7 @@ a {
   outline: 1px solid white;
   outline-offset: 15px;
   filter: saturate(0);
+  z-index: 4;
 }
 #poke1:hover {
   transition: linear 2s;
