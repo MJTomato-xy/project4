@@ -965,11 +965,12 @@ a {
   font-family: 'Montserrat', sans-serif;
 }
 #p3 {
+  position: absolute;
+  -webkit-text-stroke: 1px white;
   display: inline-block;
-  margin-top: 70px;
-  margin-left: 600px;
+  margin-top: 30px;
+  margin-left: 400px;
   font-size: 96px;
-  -webkit-text-stroke: 1px orange;
   font-family: 'Montserrat', sans-serif;
   cursor: url(assets/icons8-open-pokeball-80.png), auto;
   line-height: 70px;
