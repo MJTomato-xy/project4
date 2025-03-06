@@ -967,17 +967,17 @@ a {
 #p3 {
   display: inline-block;
   margin-top: 100px;
-  margin-left: 600px;
+  margin-left: 700px;
   font-size: 96px;
   color: transparent;
   -webkit-text-stroke: 1px white;
   font-family: 'Montserrat', sans-serif;
   cursor: url(assets/icons8-open-pokeball-80.png), auto;
   line-height: 70px;
-  transition: 1s;
 }
 #p3:hover {
   -webkit-text-stroke: 1px orange;
+  transition: 1s;
   color: orange;
   text-shadow: 0 0 20px rgb(255, 189, 65);
   font-size: 100px;
